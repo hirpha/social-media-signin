@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "158901561381",
+    "project_id": "personal-projects-9d79a",
+    "storage_bucket": "personal-projects-9d79a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158901561381:android:5fd1f07bf517967d3177cc",
+        "android_client_info": {
+          "package_name": "com.hirpha.signin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8VlNyY0bnN1I1hjyGh0LVEjJRXbIlwq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158901561381:android:f21aebeb7953d53b3177cc",
+        "android_client_info": {
+          "package_name": "com.siginWithSocialMedia.hirphaplc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8VlNyY0bnN1I1hjyGh0LVEjJRXbIlwq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
