@@ -37,6 +37,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   child: SvgPicture.string(
                     paymentProcessIllistration,
                     fit: BoxFit.scaleDown,
+                    color: Colors.blue,
                   ),
                 ),
               ),

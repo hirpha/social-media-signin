@@ -30,13 +30,14 @@ class _SignInScreenState extends State<SignInScreen> {
       if (result.status == LoginStatus.success) {
         _accessToken = result.accessToken;
 
+        successSnackBar("You are successfully logged in");
+        Navigator.pushNamed(context, HomeScreen.routeName);
         // Fetch user data
         final userData = await FacebookAuth.instance.getUserData();
         setState(() {
           _userData = userData;
         });
-        successSnackBar( "You are successfully logged in");
-        Navigator.pushNamed(context, HomeScreen.routeName);
+
         print('Facebook user signed in: ${_userData.toString()}');
       } else {
         print('Facebook login failed: ${result.status}');
@@ -85,7 +86,8 @@ class _SignInScreenState extends State<SignInScreen> {
       if (googleUser != null) {
         final GoogleSignInAuthentication googleAuth =
             await googleUser.authentication;
-
+        successSnackBar("You are successfully logged in");
+        Navigator.pushNamed(context, HomeScreen.routeName);
         final AuthCredential credential = GoogleAuthProvider.credential(
           accessToken: googleAuth.accessToken,
           idToken: googleAuth.idToken,
@@ -102,12 +104,11 @@ class _SignInScreenState extends State<SignInScreen> {
         print("id token: $idToken");
         final UserCredential userCredential =
             await _auth.signInWithCredential(credential);
-        successSnackBar( "You are successfully logged in");
+
         setState(() {
           _user = userCredential.user;
         });
 
-        Navigator.pushNamed(context, HomeScreen.routeName);
         print(_user);
       }
     } catch (e) {

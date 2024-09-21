@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           "Welcome Hirpha",
           style: TextStyle(color: Colors.black),
         ),
@@ -21,16 +21,16 @@ class HomeScreen extends StatelessWidget {
         actions: [
           InkWell(
             onTap: () => Navigator.pushNamed(context, ProfileScreen.routeName),
-            child: CircleAvatar(
+            child: const CircleAvatar(
               child: Text("H"),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             width: 20,
           )
         ],
       ),
-      body: SafeArea(
+      body: const SafeArea(
         child: SingleChildScrollView(
           padding: EdgeInsets.symmetric(vertical: 16),
           child: Column(
