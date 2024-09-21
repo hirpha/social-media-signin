@@ -24,14 +24,14 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-<key>GIDClientID</key>
-<string>158901561381-der99r9r9t470u33mi4r1nrjk6fsugiv.apps.googleusercontent.com</string>
+	<key>GIDClientID</key>
+	<string>put it here</string>
 
 
 
 
-<key>FirebaseAppDelegateProxyEnabled</key>
-<false/>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
 
 
 <key>CFBundleURLTypes</key>
@@ -41,9 +41,9 @@
         <string>Editor</string>
         <key>CFBundleURLSchemes</key>
         <array>
-		       <string>1:158901561381:ios:d2e1e17141587bdb3177cc</string>
-		   <string>fb508348758820675</string>
-            <string>com.googleusercontent.apps.158901561381-der99r9r9t470u33mi4r1nrjk6fsugiv</string>
+		       <string>firebase id</string>
+		   <string>face book app id</string>
+            <string>google app id</string>
         </array>
     </dict>
     
@@ -55,11 +55,11 @@
  
 
 <key>FacebookAppID</key>
-<string>508348758820675</string>
+<string>FacebookAppID</string>
 <key>FacebookClientToken</key>
-<string>e3642fa3199e43bd4752816de4e8cfe0</string>
+<string>FacebookClientToken</string>
 <key>FacebookDisplayName</key>
-<string>Social Media Sign</string>
+<string>FacebookDisplayName</string>
 
 
 
